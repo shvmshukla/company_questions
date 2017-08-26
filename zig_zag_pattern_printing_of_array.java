@@ -49,3 +49,7 @@ public class zig_zag_patter_printing_of_array {
 
     
 }
+
+/*OUTPUT
+1  3  2  8  4  16  12  45  32  100  BUILD SUCCESSFUL (total time: 0 seconds)
+*/
