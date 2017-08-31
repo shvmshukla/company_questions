@@ -41,3 +41,46 @@ for (int p = 0; p < arr.length / 2; p++) {
 		
 	}
 }
+
+
+// EFFICIENT CODE FOR THE SAME
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class GFG {
+    /*public static void sort(int a[],int n){
+        int temp;
+        
+        for(int j=0;j<n-1;j++){
+            for(int k=j;k<n;k++){
+                if(a[k]<a[j]){
+                    temp=a[j];
+                    a[j]=a[k];
+                    a[k]=temp;
+                }
+            }
+        }
+    }*/
+	public static void main (String[] args) {
+		Scanner in=new Scanner(System.in);
+		int n=in.nextInt();
+		int i;
+		int a[]=new int[n];
+		for(i=0;i<n;i++)
+		   a[i]=in.nextInt();
+		   
+		for(i=0;i<n;i++){
+		    if(i==0)
+		    System.out.println(a[i]);
+		    else{
+		        Arrays.sort(a,0,i+1);
+		        if(i%2==0)
+		        System.out.println(a[i/2]);
+		        else
+		        System.out.println((a[i/2]+a[i/2+1])/2);
+		    }
+		}
+		//code
+	}
+}
