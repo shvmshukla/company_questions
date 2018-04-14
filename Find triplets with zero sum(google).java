@@ -19,6 +19,39 @@ you need to write your solution in the form of Function(s) only.
 Driver Code to call/invoke your function is mentioned above.*/
 
 /*Complete the function below*/
+
+class GfG
+{
+	public boolean findTriplets(int arr[] , int n)
+       {
+         //add code here.
+        
+            Arrays.sort(arr);
+            boolean found = false;
+            for (int i=0;i<n&&found==false;i++){
+                int l = i+1,r = n-1;
+                while (l<r){
+                    int curSum = arr[i]+arr[l]+arr[r];
+                    if (curSum==0){
+                        //System.out.println("1");
+                        found = true;
+                        break;
+                    }
+                    else if (curSum>0){
+                        r--;
+                    }
+                    else {
+                        l++;
+                    }
+                }
+            }
+            return found;
+
+        
+       }
+}
+
+second method :-
 class GfG
 {
 	public boolean findTriplets(int arr[] , int n)
