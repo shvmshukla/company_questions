@@ -33,7 +33,7 @@ public class peakElement {
           after=arr[mid+1];
       }
   
-    if(arr[mid]>before && arr[mid]>after  || (mid==arr.length-1)){
+    if(arr[mid]>before && arr[mid]>after ){
             System.out.println(arr[mid]);
         break;
     }
