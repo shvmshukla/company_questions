@@ -1,6 +1,14 @@
 /**
  * http://www.geeksforgeeks.org/find-the-minimum-distance-between-two-numbers/
  */
+//time complexity : O(n)
+/*
+STEPS:
+1) Traverse array from left side and stop if either x or y is found. Store index of this first occurrence 
+in a variable say prev.
+2) Now traverse arr[] after the index prev. If the element at current index i matches with either x or y then check if it is different from arr[prev]. If it is different then update the minimum distance if needed. 
+If it is same then update prev i.e., make prev = i.
+*/
 public class MinimumDistanceBetweenTwoNumbers {
 
     public int minDistance(int input[],int x, int y){
