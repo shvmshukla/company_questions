@@ -2,7 +2,7 @@
 /*
 Given an array, move the zeros present in it to the tail of array.
 */
-
+//time complexity O(n), stability is take care here 
 /**
  *
  * @author shivam
@@ -36,3 +36,7 @@ public class move_zeros_to_end {
       }    
     }
 }
+
+/*
+1 2 3 4 1 0 0 0 0 0
+*/
