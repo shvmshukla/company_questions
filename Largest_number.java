@@ -1,6 +1,5 @@
-/**
- *
- * @author shivam
+/*
+ given an array of integer, you have to create the largest number using those elements 
  */
 
 import java.util.*;
