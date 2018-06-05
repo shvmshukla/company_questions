@@ -61,7 +61,7 @@ public class minimum_coin_changing {
     }
     
     public static void main(String[] args) {
-        int coins[]= {7,2,3,6};
+        int coins[]= {7,2,3,6};   //assume infinite supply of coins
         int total=13;
         
         System.out.println("minimum number of coins to be picked for this total is "+coinChange(total,coins));
