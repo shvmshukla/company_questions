@@ -1,5 +1,6 @@
 /*
-Given an array of n elements.Find the maximum sum when the array elements will be arranged in such way. Multiply the elements of each pair and add to get maximum Sum. Sum could be larger so take mod with 10^9+7.
+Given an array of n elements.Find the maximum sum when the array elements will be arranged in such way.
+ Multiply the elements of each pair and add to get maximum Sum. Sum could be larger so take mod with 10^9+7.
 
 Example1: 
 Input:  n=7
