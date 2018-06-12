@@ -37,7 +37,7 @@ class GFG {
 		    long sum=0;
 		    long prod;
 		    i=0;
-		    while(i+1<n&&a[i+1]<0){
+		    while(i+1<n&&a[i+1]<=0){
 		        prod=(a[i]*a[i+1])%((int)Math.pow(10,9)+7);
 		        sum=(sum+prod)%((int)Math.pow(10,9)+7);
 		        i=i+2;
