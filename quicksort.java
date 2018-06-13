@@ -1,3 +1,5 @@
+//https://www.youtube.com/watch?v=-7pzsM6gxgY&t=2s
+
 public class quicksort {
      public static int partition(int[] a,int start,int end)
    {
