@@ -1,3 +1,4 @@
+//Method1 :-
 package dynamic_programming;
 //import java.lang.*;
 public class check_string_rotation {
@@ -29,4 +30,28 @@ public class check_string_rotation {
   
         //System.out.println(a.substring(1,3));
   }
+}
+//_____________________________________________________________________________________________________________________________
+//method 2
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class GFG {
+	public static void main (String[] args) {
+		//code
+		Scanner sc= new Scanner(System.in);
+		int t=sc.nextInt();
+	while(t-->0)
+	{
+	    String str1= sc.next();
+	    String str2= sc.next();
+	    
+	    if(str2.concat(str2).contains(str1))
+	     System.out.println(1);
+	    else
+	      System.out.println(0);
+	}
+	}
 }
