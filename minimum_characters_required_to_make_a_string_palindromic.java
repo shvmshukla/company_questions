@@ -6,6 +6,10 @@ Input: ABC
 Output: 2
 Input: AACECAAAA
 Output: 2
+
+Efficient Approach : Start checking the string each time if it is palindrome, and if not, then delete the last character 
+and check again. After deleting count number of characters from the last i.e., the characters to be added to front, there 
+will be a string which will be palindrome.
 */
 ---------------------------------------------------------------------------------------------------------------------------
 
